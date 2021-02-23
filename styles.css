@@ -1,0 +1,43 @@
+body {
+    background: #2a2b40;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border-collapse: collapse;
+    border-style: hidden;
+    border-spacing: 0;
+    text-align: center;
+}
+
+table td, table th {
+    border: 2px solid #7598c2;
+}
+
+#H0V1, #H0V2, #H1V0, #H1V1, #H1V2, #H2V0, #H2V1, #H2V2, #H0V6, #H0V7, #H0V8, #H1V6, #H1V7, #H1V8, #H2V6, #H2V7, #H2V8, #H6V0, #H6V1, #H6V2, #H7V0, #H7V1, #H7V2, #H8V0, #H8V1, #H8V2, #H6V6, #H6V7, #H6V8, #H7V6, #H7V7, #H7V8, #H8V6, #H8V7, #H8V8, #H3V3, #H3V4, #H3V5, #H4V3, #H4V4, #H4V5, #H5V3, #H5V4, #H5V5 {
+    background: #2a2b40;
+}
+
+#H0V3, #H0V4, #H0V5, #H1V3, #H1V4, #H1V5, #H2V3, #H2V4, #H2V5, #H3V6, #H3V7, #H3V8, #H4V6, #H4V7, #H4V8, #H5V6, #H5V7, #H5V8, #H6V3, #H6V4, #H6V5, #H7V3, #H7V4, #H7V5, #H8V3, #H8V4, #H8V5, #H3V0, #H3V1, #H3V2, #H4V0, #H4V1, #H4V2, #H5V0, #H5V1, #H5V2 {
+    background: #0a0a23;
+}
+
+.highligh {
+    background: #7598c2;
+}
+
+.read_only {
+    color: white;
+    font-weight: bold;
+}
+
+.writable {
+    color: red;
+    font-weight: bold;
+}
+

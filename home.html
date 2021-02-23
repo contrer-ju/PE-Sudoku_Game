@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script -->
+    <title>S U D O K U</title>
+</head>
+
+<body>
+    <header id="header_container">                                                     <!-- Seccion Encabezado -->
+
+
+    </header>
+
+    <article>                                                                          <!-- Seccion del Cuerpo de Pagina -->
+		<section id="board_container">		                                           <!-- Seccion Tablero de Juego -->
+			<div>
+                <table>
+                </table> 
+            </div>
+        </section>
+
+        <section id="control_board_container">                                          <!-- Seccion Control de Juego -->
+            <div>
+                <h3>Game Controls</h3>
+                <div>
+                    <div>
+                      <div class="row" id="top_buttoms_numbers_container">
+                          <button class="buttom_number" id="buttom_1">1</button>
+                          <button class="buttom_number" id="buttom_2">2</button>
+                          <button class="buttom_number" id="buttom_3">3</button>
+                          <button class="buttom_number" id="buttom_4">4</button>
+                          <button class="buttom_number" id="buttom_5">5</button>
+                      </div>
+                      <div class="row" id="bottom_buttoms_numbers">
+                          <button class="buttom_number" id="buttom_6">6</button>
+                          <button class="buttom_number" id="buttom_7">7</button>
+                          <button class="buttom_number" id="buttom_8">8</button>
+                          <button class="buttom_number" id="buttom_9">9</button>
+                          <button class="buttom_number" id="buttom_X">X</button>
+                      </div>
+                    </div>
+                </div>
+                <p></p>
+                <div>
+                    <div class="row" id="buttoms_controls_container_container">
+                        <button class="buttom_control" id="buttom_New">New</button>
+                        <button class="buttom_control" id="buttom_Clear">Clear</button>
+                        <button class="buttom_control" id="buttom_Validate">Validate</button>
+                    </div>
+                    <div id="difficulty_option_container">
+                        <form action="">
+                            <label>
+                                <input class="radio_buttom" name="difficulty_option" type="radio" id="easy_radio" value="40" checked>Easy
+                            </label>
+                            <label>
+                                <input class="radio_buttom" name="difficulty_option" type="radio" id="medium_radio" value="30">Medium
+                            </label>
+                            <label>
+                                <input class="radio_buttom" name="difficulty_option" type="radio" id="hard_radio" value="20">Hard
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <script type="text/javascript" src="js/store/store.js"></script>
+    <script type="text/javascript" src="js/handler/clear_sudoku_table.js"></script>
+    <script type="text/javascript" src="js/handler/color_cell.js"></script>
+    <script type="text/javascript" src="js/handler/export_ID_cell.js"></script>
+    <script type="text/javascript" src="js/handler/export_value_radio.js"></script>
+    <script type="text/javascript" src="js/handler/generate_random_array.js"></script>
+    <script type="text/javascript" src="js/handler/generate_sudoku_board.js"></script>
+    <script type="text/javascript" src="js/handler/generate_sudoku_table.js"></script>
+    <script type="text/javascript" src="js/handler/replace_cell.js"></script>
+    <script type="text/javascript" src="js/handler/select_sudoku_difficulty.js"></script>
+    <script type="text/javascript" src="js/handler/validate_sudoku_table.js"></script>
+    <script type="text/javascript" src="js/event/events.js"></script>
+    <script type="text/javascript" src="js/init/init.js"></script>
+</body>
+</html>
