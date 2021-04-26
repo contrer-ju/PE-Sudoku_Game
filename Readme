@@ -1,0 +1,19 @@
+OBJECTIVE
+
+The goal is to make an application of a Sudoku game, which includes the following parts:
+
+1. The generation of a random resolved board.
+2. Render of the board of point 1, where, depending on the difficulty chosen, it shows a greater or lesser number of cells to be completed by the user.
+3. Allow the filling and deletion of cells with numbers from 1 to 9, according to the user's choice.
+4. Validate the board resolved by the user against the solution generated in point 1.
+5. Indicate to the user the result of the validation.
+6. Perform game restart at any time.
+
+DESCRIPTION
+
+This project was develop using only HTML, CSS, JavaScript and JQuery.
+
+
+NOTE
+
+The application is still under development.
